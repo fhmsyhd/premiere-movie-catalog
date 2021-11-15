@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import org.fhmsyhdproject.premiere.R
 import org.fhmsyhdproject.premiere.core.ui.MovieAdapter
 import org.fhmsyhdproject.premiere.favorite.databinding.FragmentFavoriteMovieBinding
 import org.fhmsyhdproject.premiere.view.detail.DetailActivity
@@ -23,7 +22,7 @@ class FavoriteMovieFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentFavoriteMovieBinding.inflate(inflater, container, false)
         return binding.root
     }

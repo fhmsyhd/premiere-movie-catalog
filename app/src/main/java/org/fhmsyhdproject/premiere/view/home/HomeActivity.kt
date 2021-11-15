@@ -4,8 +4,6 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import org.fhmsyhdproject.premiere.R
 import org.fhmsyhdproject.premiere.databinding.ActivityHomeBinding
 import org.fhmsyhdproject.premiere.utils.adapter.SectionHomeAdapter

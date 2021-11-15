@@ -1,4 +1,4 @@
-package org.fhmsyhdproject.premiere.di
+package org.fhmsyhdproject.premiere.core.di
 
 import androidx.room.Room
 import net.sqlcipher.database.SQLiteDatabase

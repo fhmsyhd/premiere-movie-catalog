@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import org.fhmsyhdproject.premiere.R
 import org.fhmsyhdproject.premiere.core.data.Resource
 import org.fhmsyhdproject.premiere.core.ui.TvShowAdapter
 import org.fhmsyhdproject.premiere.databinding.FragmentTvShowBinding
@@ -24,7 +23,7 @@ class TvShowFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentTvShowBinding.inflate(inflater, container, false)
         return binding.root
     }

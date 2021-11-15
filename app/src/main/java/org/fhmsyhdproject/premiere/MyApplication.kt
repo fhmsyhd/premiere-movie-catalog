@@ -1,6 +1,9 @@
 package org.fhmsyhdproject.premiere
 
 import android.app.Application
+import org.fhmsyhdproject.premiere.core.di.databaseModule
+import org.fhmsyhdproject.premiere.core.di.networkModule
+import org.fhmsyhdproject.premiere.core.di.repositoryModule
 import org.fhmsyhdproject.premiere.di.*
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger

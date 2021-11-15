@@ -7,8 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import org.fhmsyhdproject.premiere.R
-import org.fhmsyhdproject.premiere.core.ui.MovieAdapter
 import org.fhmsyhdproject.premiere.core.ui.TvShowAdapter
 import org.fhmsyhdproject.premiere.favorite.databinding.FragmentFavoriteTvShowBinding
 import org.fhmsyhdproject.premiere.view.detail.DetailActivity
@@ -22,7 +20,7 @@ class FavoriteTvShowFragment : Fragment() {
     private val binding get() = _binding!!
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+                              savedInstanceState: Bundle?): View {
         _binding = FragmentFavoriteTvShowBinding.inflate(inflater, container, false)
         return binding.root
     }

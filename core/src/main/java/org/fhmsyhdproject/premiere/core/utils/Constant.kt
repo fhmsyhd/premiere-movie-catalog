@@ -12,6 +12,5 @@ object Constant {
     // Entity
     const val DB_MOVIE = "Movie.db"
     const val TABLE_MOVIE = "movie"
-    const val DB_TV_SHOW = "TvShow.db"
     const val TABLE_TV_SHOW = "tvShow"
 }
